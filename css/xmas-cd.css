@@ -1,0 +1,78 @@
+.rsprite {
+    background-image:url('../images/christmas.png');
+    display: inline-block;
+    text-indent: -9999px;
+    height: 93px;
+    width: 50px;
+}
+.ribbons li {
+    display: inline;
+}
+#sprite-1 {
+    background-position: -8px -8px;
+}
+#sprite-2 {
+    background-position: -73px -8px;
+}
+#sprite-3 {
+    background-position: -145px -8px;
+}
+#sprite-4 {
+    background-position: -214px -8px;
+}
+#sprite-5 {
+    background-position: -282px -8px;
+}
+#sprite-6 {
+    background-position: -349px -8px;
+}
+#sprite-7 {
+    background-position: -413px -8px;
+}
+#sprite-8 {
+    background-position: -481px -8px;
+}
+#sprite-9 {
+    background-position: -550px -8px;
+}
+#sprite-10 {
+    background-position: -616px -8px;
+}
+#sprite-11 {
+    background-position: -682px -8px;
+}
+#sprite-12 {
+    background-position: -745px -8px;
+}
+#sprite-13 {
+    background-position: -808px -8px;
+}
+#sprite-14 {
+    background-position: -873px -8px;
+}
+#sprite-15 {
+    background-position: -939px -8px;
+}
+#sprite-16 {
+    background-position: -999px -8px;
+    width: 64px;
+    height: 93px;
+}
+#sprite-17 {
+    background-position: -1073px -8px;
+    width: 54px;
+}
+.rsprite.selected {
+    border: 4px solid #cc0000;
+}
+.rsprite:hover {
+    border: 2px solid #cc0000;
+}
+.onsite {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.onsite.rsprite:hover {
+    border: 0 !important;
+}
